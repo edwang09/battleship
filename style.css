@@ -1,0 +1,30 @@
+.game-container{
+    display: flex;
+}
+
+.user-board{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    background-color: aliceblue;
+    border: 1px solid #000;
+    margin: 40px;
+}
+
+.computer-board{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    background-color:bisque;
+    border: 1px solid #000;
+    margin: 40px;
+}
+.cell{
+    width: 38px;
+    height: 38px;
+    border: 0.25px solid #000;
+
+}
